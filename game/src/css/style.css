@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+main {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+#sky {
+  background-color: rgb(100, 179, 253);
+  width: 100%;
+  height: 73dvh;
+  position: relative;
+}
+
+#gram {
+  width: 100%;
+  height: 3dvh;
+  background-image: url("/src/assets/grama.png");
+  background-repeat: repeat;
+  background-size: 80px 80px;
+  image-rendering: pixelated;
+}
+
+#earth {
+  width: 100%;
+  height: 24dvh;
+  /* Usa a imagem como fundo */
+  background-image: url("/src/assets/terra.png");
+  /* Repete a imagem para preencher a área */
+  background-repeat: repeat;
+  /* Tamanho de cada repetição */
+  background-size: 80px 80px;
+  /* Mantém os pixels nítidos ao redimensionar */
+  image-rendering: pixelated;
+}
+
+/* Zombie */
+/* Warrior */
+
+#zombie,
+#warrior {
+  width: 170px;
+  position: absolute;
+  bottom: -5%;
+  left: 80%;
+}
+
+#warrior {
+  bottom: -3%;
+  left: 10%;
+}
